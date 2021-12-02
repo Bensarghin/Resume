@@ -1,0 +1,197 @@
+/* global style */
+#app{
+	background-color: #fff;
+	margin-top: 20px;
+	padding: 40px;
+	padding-top: 20px;
+	border-radius: 6px;
+	box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+body{
+    font-family: Poppins,
+    -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",
+    Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    background-color: #f5f7fa
+}
+.h6{
+	font-size: 1rem;
+	font-weight: 600;
+}
+.btn-success{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.card-header{
+	background-color: #fff
+}
+
+/* == header style == */
+/*navbar*/
+.container .navbar{
+	background: none !important;
+	color: #181D31;
+}
+.container .navbar .navbar-brand{
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px
+}
+.container .navbar .nav-link{
+	color: #476072;
+	font-weight: bold;
+}
+.container .navbar .nav-link:hover{
+	color: #577BC1;
+}
+
+.navbar-toggler{
+	color: #fff;
+	background: #000;
+	border: 1px solid #000
+}
+
+.navbar-toggler-icon{
+	color: #fff;
+}
+/*social media*/
+.social-media .list-unstyled li{
+	display: inline-block;
+	font-size: 30px;
+	padding: 5px;
+}
+.social-media .list-unstyled li:first-child a{
+	color: #395592
+}
+.social-media .list-unstyled li:nth-of-type(2n) a{
+	color: #000
+}
+.social-media .list-unstyled li:nth-of-type(3n) a{
+	color: #1c99e6
+}
+.social-media .list-unstyled li:last-child a{
+	color: #de4038
+}
+
+
+
+/* == content style == */
+.content{
+	/*margin-top: 10px*/
+}
+.bensarghin-resume {
+	margin-top: 50px
+}
+
+/* == left resume style == */
+.my-photo{
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.my-photo .bg-noir{
+	height: calc(100% - 140px);
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	z-index: 2;
+}
+
+.my-photo img{
+
+	z-index: 1
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  	filter: grayscale(100%);
+}
+.my-photo .me h5{
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.my-photo .me p{
+	text-transform: capitalize;
+	color: #515151;
+	font-size: 14px;
+	font-weight: 600
+}
+.card .card-body .list-unstyled{
+	color: #656d78;
+}
+
+
+/* == bensarghin content header == */
+.bensarghin-b .bg-noir{
+	height: 395px;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	z-index: 2;
+}
+.bensarghin-bg{
+	background: url('../img/bensarghin-bg.jpg');
+	color: #fff;
+	height: 395px;
+	text-align: center;
+	position: relative;
+	z-index: 1
+}
+
+.bensarghin-name{
+	position: relative;
+	z-index: 24;
+	top: 110px
+}
+.bensarghin-name h2{
+	text-transform: capitalize;
+}
+
+/* == bensarghin Experience style == */
+.line {
+	width: 2px;
+	height: 450px;
+	float: left;
+	margin-left: 5px;
+	background-color:  #0d6efd
+}
+.own-card {
+	padding: 20px;
+	width: calc(100% - 80px);
+	border: solid 2px #e9ecef;
+	border-left: solid 2px #0d6efd;
+}
+.h-line {
+
+	margin-left: 10px;
+	margin-top: 40px;
+	width: 60px;
+	height: 2px;
+	float: left;
+	background-color:  #0d6efd
+}
+
+.exper-list-item .own-card,
+.exper-list-item .h-line{
+	display: inline-block;
+}
+
+/* == footer style == */
+footer h2,
+footer p{
+	color : #6c757d;
+	padding: 20px
+}
+footer h2{
+	color: #000;
+	font-weight: 700;
+	font-size: 1.714em;
+	line-height: 1.45em;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .my-photo .bg-noir{
+ 		height: calc(100% - 162px) !important
+	}
+
+
+}
